@@ -11,6 +11,7 @@ const ProductScreen = ({ match }) => {
   useEffect(() => {
     const fetchProduct = async () => {
       const { data } = await axios.get(`/api/products/${match.params.id}`);
+      // const { data } = await fetch(`/api/products/${match.params.id}`); Fetching data with fetchAPI
 
       setProducts(data);
     };
