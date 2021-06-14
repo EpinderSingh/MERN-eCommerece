@@ -3,7 +3,7 @@ import axios from 'axiox';
 import {
   PRODUCTS_LIST_REQUEST,
   PRODUCT_LIST_SUCCESS,
-  PRODICT_LIST_FAIL,
+  PRODUCT_LIST_FAIL,
 } from '../constants/productConstants';
 
 export const listProducts = () => async (dispatch) => {
